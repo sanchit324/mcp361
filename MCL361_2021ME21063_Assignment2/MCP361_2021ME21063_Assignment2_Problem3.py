@@ -1,7 +1,6 @@
 import numpy as np
 import statsmodels.api as sm
 
-# A class for analyzing Ordinary Least Squares (OLS) regression is defined by me
 class OLSRegressionAnalysis:
     def __init__(self, a, b, n, error_std, iterations):
         # The model parameters are initialized:

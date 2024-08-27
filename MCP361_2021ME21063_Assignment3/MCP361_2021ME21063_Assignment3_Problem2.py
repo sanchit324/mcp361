@@ -69,6 +69,9 @@ class WagnerWhitin:
         """
         [INFO] Help is taken from ChatGPT for formatting the printing area
         """
+        """
+        The values are printed in integer format to take care of the formatting from previous question, if using float the table generated is not aligned properly.
+        """
         print("Last week\t|\t Planning Horizon t")
         print("with Production\t|", end="")
         for t in range(1, len(self.Z)):  # Print headers for each period
